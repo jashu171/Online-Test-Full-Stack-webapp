@@ -1,6 +1,39 @@
-# React + Flask Authentication System
+# 🎯 Online Test Platform - Full-Stack Web Application
 
-A complete authentication system with React frontend and Flask backend, featuring user registration, login, and dashboard functionality.
+
+## 🌟 Overview
+
+The **Online Test Platform** is a modern, scalable full-stack web application designed to facilitate comprehensive online assessments. Built with cutting-edge technologies including **React.js** for the frontend, **Python Flask** for the backend API, and **MySQL** for robust data management, this platform provides an intuitive interface for both test administrators and students.
+
+
+
+## 📋 Table of Contents
+- [Overview](#-overview)
+- [Architecture](#-architecture)
+- [Features](#-features)
+- [Technology Stack](#-technology-stack)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Configuration](#-configuration)
+- [Usage](#-usage)
+- [API Documentation](#-api-documentation)
+- [Database Schema](#-database-schema)
+- [Testing](#-testing)
+- [Deployment](#-deployment)
+- [Performance Optimization](#-performance-optimization)
+- [Security Features](#-security-features)
+- [Contributing](#-contributing)
+- [Troubleshooting](#-troubleshooting)
+- [License](#-license)
+
+
+
+### Key Highlights
+- 🏗️ **Microservices Architecture** - Modular and scalable design
+- 🔒 **Enterprise-grade Security** - JWT authentication, CORS protection, input validation
+- 📱 **Responsive Design** - Mobile-first approach with cross-device compatibility
+- ⚡ **Real-time Features** - Live test monitoring and instant result processing
+- 🚀 **Production-ready** - Docker containerization and CI/CD pipeline support
 
 ## Project Structure
 
@@ -24,43 +57,8 @@ A complete authentication system with React frontend and Flask backend, featurin
 │   └── .env            # Environment variables
 └── package.json        # React dependencies
 ```
-# 🎯 Online Test Platform - Full-Stack Web Application
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/your-username/online-test-platform)
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
-[![React Version](https://img.shields.io/badge/react-18.0%2B-61DAFB.svg)](https://reactjs.org)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-## 📋 Table of Contents
-- [Overview](#-overview)
-- [Architecture](#-architecture)
-- [Features](#-features)
-- [Technology Stack](#-technology-stack)
-- [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Usage](#-usage)
-- [API Documentation](#-api-documentation)
-- [Database Schema](#-database-schema)
-- [Testing](#-testing)
-- [Deployment](#-deployment)
-- [Performance Optimization](#-performance-optimization)
-- [Security Features](#-security-features)
-- [Contributing](#-contributing)
-- [Troubleshooting](#-troubleshooting)
-- [License](#-license)
-
-## 🌟 Overview
-
-The **Online Test Platform** is a modern, scalable full-stack web application designed to facilitate comprehensive online assessments. Built with cutting-edge technologies including **React.js** for the frontend, **Python Flask** for the backend API, and **MySQL** for robust data management, this platform provides an intuitive interface for both test administrators and students.
-
-### Key Highlights
-- 🏗️ **Microservices Architecture** - Modular and scalable design
-- 🔒 **Enterprise-grade Security** - JWT authentication, CORS protection, input validation
-- 📱 **Responsive Design** - Mobile-first approach with cross-device compatibility
-- ⚡ **Real-time Features** - Live test monitoring and instant result processing
-- 🚀 **Production-ready** - Docker containerization and CI/CD pipeline support
 
 ## 🏛️ Architecture
 
@@ -153,11 +151,6 @@ graph TB
 | Technology | Version | Purpose |
 |------------|---------|---------|
 | **MySQL** | 8.0+ | Primary database |
-| **Alembic** | 1.9+ | Database migrations |
-| **Docker** | 20.10+ | Containerization |
-| **Docker Compose** | 2.15+ | Multi-container orchestration |
-| **Nginx** | 1.20+ | Reverse proxy and load balancing |
-| **GitHub Actions** | - | CI/CD pipeline |
 
 ## 📋 Prerequisites
 
